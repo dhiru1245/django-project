@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>career</title>
+</head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+     #nameeid {
+         font-size: 30px;
+         color: crimson;
+     }
+
+    ul{
+        list-style-type: None;
+        margin : 10px;
+        padding: 0px;
+        background-color: aqua;
+        overflow: auto;
+        width:100%;
+         position: fixed;
+
+    }
+    li {
+        float: right;
+    }
+
+
+li a:hover {
+  background-color: aqua;
+}
+
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+      .div1{
+        font-size: 20px;
+        text-align: center;
+        background-color: orchid;
+        border-radius: 30px;
+        color: white;
+    }
+
+       #h1id {
+           font-size: 70px;
+           color: white;
+           background-color: green;
+           border: 2px solid green;
+           border-radius: 50px;
+       }
+
+        .div1{
+        font-size: 20px;
+        text-align: center;
+        background-color: orchid;
+        border-radius: 30px;
+        color: white;
+    }
+
+    {#.col-md-6{#}
+    {#    border: 2px blue solid;#}
+    {#    border-radius: 20px;#}
+
+</style>
+<body>
+<nav>
+
+      <ul>
+
+
+        <li><a href="/galary/">Galary</a></li>
+{#          <li><a href="/feedback/">Feedback</a></li>#}
+        <li><a href="/services/">service</a></li>
+        <li><a href="/contect/">contect</a></li>
+        <li><a href="/index/">Home</a></li>
+      </ul>
+    <br><br>
+</nav>
+{% block contect %}
+
+{% endblock %}
+<div class="container-fluid div1">
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <h2>Address-1</h2>
+                <pre>
+Dhirendra kumar
+9852426692
+dj@gmail.com
+deoghar
+
+                </pre>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                <h2>Address-2</h2>
+                <pre>
+Dhirendra kumar
+9852426692
+dj@gmail.com
+deoghar
+                </pre>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                <h2>Address-3</h2>
+                <pre>
+Dhirendra kumar
+9852426692
+dj@gmail.com
+deoghar
+                </pre>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

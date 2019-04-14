@@ -1,0 +1,55 @@
+
+{% extends 'base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>temp</title>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{% static "css/tem.css" %}">
+</head>
+<body>
+{% block contect %}
+
+    <h1 style="text-align: center " class="bg-warning">Welcome To Bright Career Center</h1>
+
+    <div class="container ">
+  <div class="row">
+
+
+    <div class="col-sm-6">
+        <h3>BRIGHT CAREER INSTITUTE</h3>
+        <p>The main activities to run the institution has come in the field to serve the weaker sections of society including women and children.The organisation has decided to make the community well versed in all respects of education which provides launching pad for the world scholarship. we have trained hundreds of students from socially back ward class and provide skill training in different fields like hotel management and caterings funded by ministry of tourism sponsored by Mr.Rajnish kumar  and all the students got jobs their respective fields. we have trained many women for aganwardi purpose through social welfare department Govt of India. we are providing coaching for SSC/ JSSC and other adminstrative sewrvices. we groom the students for creativity and counselling for different professional courses. we provide professional coaching like JEEmain/IIT/MBA/BBA/BANKING exams/JKCET/ To enable the people well conversant and well versed so that they may not face any difficulty in the present competitive world</p>
+    </div>
+      <div class="col-sm-6">
+
+      <img id="2" src="{% static "images/a.jpg" %}" alt="missing image" class="img-responsive img-thumbnail" >
+          <h6>Director of This Institute</h6>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+<div>
+ <pre style="color: red; font-size: 20px">
+        Developed By Dhirendra kumar
+    </pre>
+</div>
+
+{% endblock %}
+</body>
+
+
+</html>
